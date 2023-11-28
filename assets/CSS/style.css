@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0;
+}
+
+  span.namenav {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+  }
+
+.navtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  span.name {
+    font-size: 48px;
+  }
+
+  span.titles1 {
+    font-size: 38px;
+  }
+
+.button-topics a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.hero-container {
+  background: orange;
+  color: white;
+  text-align: left;
+  padding: 100px 20px;
+  min-height: 400px;
+}
+
+.name {
+  display: block;
+  font-size: 2em;
+}
+
+.titles1 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+#portfolio {
+  padding: 50px 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-box {
+  position: relative;
+  width: calc(33.33% - 40px); /* Adjust the width and margin based on your preference */
+  height: 0;
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 20%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  text-align: center;
+  display: grid;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+  
+  @media (max-width: 768px) {
+    .project-box {
+      width: 100%;
+    }
+  }
+  

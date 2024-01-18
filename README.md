@@ -17,3 +17,5 @@
 # Contact info
 
     The contact information are to be updated later with social buttons and more information as the project progresses.
+
+# Deployed - https://xero-n.github.io/Portfolio/
